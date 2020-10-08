@@ -1,0 +1,33 @@
+1.03 -> 1.5:
+
+ - Increased security when loading--no more use of "eval" or "exec" to provide an attack-vector!
+
+ - Better error-handling, I think.
+
+ - Handling of byte-strings.
+
+ - Movement of example-files into a separate folder, for the sake of better organisation and a clearer delineation between core- and example- files.
+
+ - Minor updates to the example files.
+
+ - Likely further changes, too.
+
+1.02 -> 1.03:
+
+ - The inclusion of a convenience class used to wrap simple objects (dicts, lists, etc.)
+
+1.01 -> 1.02:
+
+ - GameSaver should now handle strings that carry the newline character, thanks to the "str.encode" and "str.decode" methods.
+
+1.0 -> 1.01:
+
+ - All GameSaver classes now descend from "object".
+
+ - GameSaver should now automatically handle various classes that descend from Iterable, not just list, tuple, dict and str.
+
+ - GameSaver should now automatically handle various callable types, not just functions and methods.
+
+ - GameSaver should now pass on IOExceptions produced during saving and loading; these are expected to be handled (or ignored) by the user.
+
+
